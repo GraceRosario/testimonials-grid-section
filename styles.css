@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 body {
@@ -49,6 +50,10 @@ main {
 
 .heading {
   font-size: 1rem;
+}
+
+.quotation-img {
+  display: none;
 }
 
 .review,
@@ -118,6 +123,32 @@ footer a {
 
   .testimonial-card {
     height: 100%;
+  }
+
+  .card__header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .quotation-img {
+    width: 100%;
+    max-width: 120px;
+    z-index: 0;
+    /* margin-left: auto; */
+    margin: 0 2rem auto auto;
+    /* margin-right: 2rem; */
+    display: inline;
+    /* position: fixed; */
+    /* align-self: self-end; */
+    /* justify-self: self-start; */
+  }
+
+  .purple-card {
+    padding-top: 0;
+  }
+
+  .purple-card .heading {
+    margin-top: -2.5rem;
   }
 
   footer {
