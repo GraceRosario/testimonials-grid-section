@@ -107,6 +107,14 @@ footer a {
     grid-column: 3/4;
   }
 
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .review {
+    font-size: 1.125rem;
+  }
+
   .card--tall {
     grid-column: 4;
     grid-row: 1/3;
